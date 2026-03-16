@@ -3,12 +3,13 @@ name: Container Build
 on:
   release:
     types: [published]
-  push:
+  pull_request:
     branches: [main]
 
 permissions:
   contents: read
   packages: write
+  id-token: write
 
 jobs:
   build:
