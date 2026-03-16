@@ -1,3 +1,12 @@
+## [0.1.6](https://github.com/cwaits6/workflow-test/compare/v0.1.5...v0.1.6) (2026-03-16)
+
+
+### Bug Fixes
+
+* re-trigger release after removing branch protection ([7f9f3a1](https://github.com/cwaits6/workflow-test/commit/7f9f3a13f2a2eacab7d2f3dbbbfcc4006c15ddd3))
+* test trivy sbom dependency submission ([#5](https://github.com/cwaits6/workflow-test/issues/5)) ([5d337da](https://github.com/cwaits6/workflow-test/commit/5d337da845313ba619122f0fc352a140c703e24c))
+* validate release pipeline with branch protection ([#6](https://github.com/cwaits6/workflow-test/issues/6)) ([e581123](https://github.com/cwaits6/workflow-test/commit/e58112326df87c6fe386ce38d1c32eb72b4562a8))
+
 ## [0.1.5](https://github.com/cwaits6/workflow-test/compare/v0.1.4...v0.1.5) (2026-03-16)
 
 
