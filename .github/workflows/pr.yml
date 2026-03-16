@@ -10,11 +10,11 @@ permissions:
 
 jobs:
   dependency-review:
-    uses: cwaits6/.github/.github/workflows/dependency-review.yml@fix/remove-top-level-permissions
+    uses: cwaits6/.github/.github/workflows/dependency-review.yml@main
   trivy:
-    uses: cwaits6/.github/.github/workflows/trivy.yml@fix/remove-top-level-permissions
+    uses: cwaits6/.github/.github/workflows/trivy.yml@main
   semgrep:
-    uses: cwaits6/.github/.github/workflows/semgrep.yml@fix/remove-top-level-permissions
+    uses: cwaits6/.github/.github/workflows/semgrep.yml@main
     permissions:
       contents: write
       issues: write
