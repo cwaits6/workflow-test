@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   release:
-    uses: cwaits6/.github/.github/workflows/release.yml@main
+    uses: cwaits6/.github/.github/workflows/release.yml@fix/remove-top-level-permissions
     with:
       go-binary-name: workflow-test
       go-ldflags-prefix: main
