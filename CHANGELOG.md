@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/cwaits6/workflow-test/compare/v0.1.1...v0.1.2) (2026-03-16)
+
+
+### Bug Fixes
+
+* trigger container build on release and push to main ([#3](https://github.com/cwaits6/workflow-test/issues/3)) ([0af8b08](https://github.com/cwaits6/workflow-test/commit/0af8b087124a9ed40cdf66de868400fd0f89a78c))
+
 ## [0.1.1](https://github.com/cwaits6/workflow-test/compare/v0.1.0...v0.1.1) (2026-03-16)
 
 
