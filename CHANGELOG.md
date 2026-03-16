@@ -1,3 +1,10 @@
+## [0.1.5](https://github.com/cwaits6/workflow-test/compare/v0.1.4...v0.1.5) (2026-03-16)
+
+
+### Bug Fixes
+
+* validate updated action versions ([c07b0c2](https://github.com/cwaits6/workflow-test/commit/c07b0c29f1a2bd577cacea4026de763a8b62c7d1))
+
 ## [0.1.4](https://github.com/cwaits6/workflow-test/compare/v0.1.3...v0.1.4) (2026-03-16)
 
 
