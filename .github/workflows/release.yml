@@ -1,0 +1,17 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  release:
+    uses: cwaits6/.github/.github/workflows/release.yml@main
+    with:
+      go-binary-name: workflow-test
+      go-ldflags-prefix: main
