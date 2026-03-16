@@ -1,0 +1,15 @@
+name: Container Build
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    uses: cwaits6/.github/.github/workflows/container-build.yml@main
+    with:
+      dockerfile: Dockerfile
