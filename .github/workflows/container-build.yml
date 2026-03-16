@@ -10,6 +10,6 @@ permissions:
 
 jobs:
   build:
-    uses: cwaits6/.github/.github/workflows/container-build.yml@main
+    uses: cwaits6/.github/.github/workflows/container-build.yml@fix/remove-top-level-permissions
     with:
       dockerfile: Dockerfile
