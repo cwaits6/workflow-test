@@ -1,6 +1,6 @@
 FROM cgr.dev/chainguard/wolfi-base:latest AS builder
 
-RUN apk add --no-cache go~1.26
+RUN apk add --no-cache go-1.26
 
 WORKDIR /build
 COPY go.mod main.go ./
