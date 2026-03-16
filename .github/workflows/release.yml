@@ -8,6 +8,8 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  packages: write
+  id-token: write
 
 jobs:
   release:
@@ -15,3 +17,11 @@ jobs:
     with:
       go-binary-name: workflow-test
       go-ldflags-prefix: main
+
+  container-build:
+    needs: release
+    if: needs.release.outputs.new-release-published == 'true'
+    uses: cwaits6/.github/.github/workflows/container-build.yml@main
+    with:
+      dockerfile: Dockerfile
+      platforms: linux/amd64,linux/arm64
