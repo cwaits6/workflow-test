@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/cwaits6/workflow-test/compare/v0.1.2...v0.1.3) (2026-03-16)
+
+
+### Bug Fixes
+
+* use correct Wolfi package name go-1.26 ([#4](https://github.com/cwaits6/workflow-test/issues/4)) ([7a8802f](https://github.com/cwaits6/workflow-test/commit/7a8802f4d01641c8330982a3b5a9e66e5a9b08a1))
+
 ## [0.1.2](https://github.com/cwaits6/workflow-test/compare/v0.1.1...v0.1.2) (2026-03-16)
 
 
