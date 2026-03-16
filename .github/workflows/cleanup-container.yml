@@ -1,0 +1,13 @@
+name: Cleanup Container Images
+
+on:
+  delete:
+    branches-ignore: [main]
+
+permissions:
+  packages: write
+
+jobs:
+  cleanup:
+    if: github.event.ref_type == 'branch'
+    uses: cwaits6/.github/.github/workflows/cleanup-container.yml@main
