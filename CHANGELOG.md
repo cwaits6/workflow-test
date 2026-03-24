@@ -1,3 +1,15 @@
+# [0.2.0](https://github.com/cwaits6/workflow-test/compare/v0.1.6...v0.2.0) (2026-03-24)
+
+
+### Bug Fixes
+
+* pass App secrets to shared release workflow ([#8](https://github.com/cwaits6/workflow-test/issues/8)) ([f736785](https://github.com/cwaits6/workflow-test/commit/f7367856026d1ce14b6a22493f7fe375cc945474))
+
+
+### Features
+
+* migrate to GoReleaser for binary builds ([ceaf819](https://github.com/cwaits6/workflow-test/commit/ceaf819ac62d4a9ff5b08ca0b9ee7287a2624fbd))
+
 ## [0.1.6](https://github.com/cwaits6/workflow-test/compare/v0.1.5...v0.1.6) (2026-03-16)
 
 
