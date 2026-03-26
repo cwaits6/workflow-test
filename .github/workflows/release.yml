@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   release:
-    uses: cwaits6/.github/.github/workflows/release.yml@main
+    uses: krypsis-io/.github/.github/workflows/release.yml@main
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
@@ -21,7 +21,7 @@ jobs:
   container-build:
     needs: release
     if: needs.release.outputs.new-release-published == 'true'
-    uses: cwaits6/.github/.github/workflows/container-build.yml@main
+    uses: krypsis-io/.github/.github/workflows/container-build.yml@main
     with:
       dockerfile: Dockerfile
       platforms: linux/amd64,linux/arm64
