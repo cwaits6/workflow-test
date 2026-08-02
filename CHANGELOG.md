@@ -5,6 +5,13 @@
 
 * add a validation greeting line ([#12](https://github.com/cwaits6/workflow-test/issues/12)) ([c4f2ac1](https://github.com/cwaits6/workflow-test/commit/c4f2ac18396b9531d0fcc4f353285d019ede47b8))
 
+## [0.3.1](https://github.com/cwaits6/workflow-test/compare/v0.3.0...v0.3.1) (2026-08-02)
+
+
+### CI/CD
+
+* normalise changelog headings and add config overrides ([#14](https://github.com/cwaits6/workflow-test/issues/14)) ([35a27e3](https://github.com/cwaits6/workflow-test/commit/35a27e3976f4a310fc8955123153c28d4dc0647b))
+
 ## [0.2.0](https://github.com/cwaits6/workflow-test/compare/v0.1.6...v0.2.0) (2026-03-24)
 
 
