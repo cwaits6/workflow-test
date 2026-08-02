@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0](https://github.com/cwaits6/workflow-test/compare/v0.3.1...v0.4.0) (2026-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* the greeting line is gone and the version banner prefix changed from workflow-test to workflow-test/v2.
+
+### Features
+
+* rename the binary output prefix and drop the greeting line ([#16](https://github.com/cwaits6/workflow-test/issues/16)) ([ef91189](https://github.com/cwaits6/workflow-test/commit/ef911899527abb9591cdb67e6e2e3d280eb1bc33))
+
 ## [0.3.0](https://github.com/cwaits6/workflow-test/compare/v0.2.0...v0.3.0) (2026-08-02)
 
 
