@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.9.0](https://github.com/cwaits6/workflow-test/compare/v0.4.0...v0.9.0) (2026-08-02)
+
+
+### Features
+
+* add a second feature line ([#18](https://github.com/cwaits6/workflow-test/issues/18)) ([15de499](https://github.com/cwaits6/workflow-test/commit/15de4998c318276ef0d1126bdf95aac4ebdc46f1))
+
+
+### CI/CD
+
+* pin the next release to 0.9.0 via release-as ([#20](https://github.com/cwaits6/workflow-test/issues/20)) ([41df0aa](https://github.com/cwaits6/workflow-test/commit/41df0aad95192733301f1c67458c14d19248c617))
+
 ## [0.4.0](https://github.com/cwaits6/workflow-test/compare/v0.3.1...v0.4.0) (2026-08-02)
 
 
