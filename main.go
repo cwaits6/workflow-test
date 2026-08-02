@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var version = "dev"
+var version = "0.3.0" // x-release-please-version
 
 func main() {
 	fmt.Printf("workflow-test version: %s\n", version)
