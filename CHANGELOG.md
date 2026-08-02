@@ -1,4 +1,11 @@
-# [0.2.0](https://github.com/cwaits6/workflow-test/compare/v0.1.6...v0.2.0) (2026-03-24)
+## [0.3.0](https://github.com/cwaits6/workflow-test/compare/v0.2.0...v0.3.0) (2026-08-02)
+
+
+### Features
+
+* add a validation greeting line ([#12](https://github.com/cwaits6/workflow-test/issues/12)) ([c4f2ac1](https://github.com/cwaits6/workflow-test/commit/c4f2ac18396b9531d0fcc4f353285d019ede47b8))
+
+## [0.2.0](https://github.com/cwaits6/workflow-test/compare/v0.1.6...v0.2.0) (2026-03-24)
 
 
 ### Bug Fixes
@@ -9,13 +16,6 @@
 ### Features
 
 * migrate to GoReleaser for binary builds ([ceaf819](https://github.com/cwaits6/workflow-test/commit/ceaf819ac62d4a9ff5b08ca0b9ee7287a2624fbd))
-
-## [0.3.0](https://github.com/cwaits6/workflow-test/compare/v0.2.0...v0.3.0) (2026-08-02)
-
-
-### Features
-
-* add a validation greeting line ([#12](https://github.com/cwaits6/workflow-test/issues/12)) ([c4f2ac1](https://github.com/cwaits6/workflow-test/commit/c4f2ac18396b9531d0fcc4f353285d019ede47b8))
 
 ## [0.1.6](https://github.com/cwaits6/workflow-test/compare/v0.1.5...v0.1.6) (2026-03-16)
 
@@ -61,7 +61,7 @@
 
 * point shared workflow callers at fix branch ([#2](https://github.com/cwaits6/workflow-test/issues/2)) ([07c04e9](https://github.com/cwaits6/workflow-test/commit/07c04e9845bfd1a6db1f379badd820e98a518a0d))
 
-# [0.1.0](https://github.com/cwaits6/workflow-test/compare/v0.0.0...v0.1.0) (2026-03-16)
+## [0.1.0](https://github.com/cwaits6/workflow-test/compare/v0.0.0...v0.1.0) (2026-03-16)
 
 
 ### Features
