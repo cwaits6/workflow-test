@@ -1,3 +1,5 @@
+# Changelog
+
 ## [0.3.0](https://github.com/cwaits6/workflow-test/compare/v0.2.0...v0.3.0) (2026-08-02)
 
 
