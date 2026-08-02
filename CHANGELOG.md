@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.10.0](https://github.com/cwaits6/workflow-test/compare/v0.9.0...v0.10.0) (2026-08-02)
+
+
+### Features
+
+* probe sticky release-as behaviour ([#21](https://github.com/cwaits6/workflow-test/issues/21)) ([2ac6f95](https://github.com/cwaits6/workflow-test/commit/2ac6f95a69a0a161278d6489c3df27c7d53f2c6b))
+
+
+### CI/CD
+
+* unpin release-as after the forced 0.9.0 release ([#23](https://github.com/cwaits6/workflow-test/issues/23)) ([280ad9a](https://github.com/cwaits6/workflow-test/commit/280ad9a093014bbbb4f075cf9339a25933d1cdf9))
+
 ## [0.9.0](https://github.com/cwaits6/workflow-test/compare/v0.4.0...v0.9.0) (2026-08-02)
 
 
