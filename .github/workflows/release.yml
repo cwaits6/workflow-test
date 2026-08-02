@@ -13,7 +13,10 @@ permissions:
 
 jobs:
   release:
-    uses: krypsis-io/.github/.github/workflows/release.yml@main
+    # TESTING krypsis-io/.github#80 -- revert to @main once that PR lands.
+    uses: krypsis-io/.github/.github/workflows/release-please.yml@ci/release-please-workflow
+    with:
+      release-type: go
     secrets:
       APP_ID: ${{ secrets.APP_ID }}
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
