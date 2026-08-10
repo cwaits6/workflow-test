@@ -3,11 +3,31 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": false,
   "pull-request-title-pattern": "chore: release ${version}",
-  "pull-request-header": "Release notes below. Merge this PR to tag the release and publish it.",
+  "pull-request-header": "",
   "packages": {
     ".": {
       "release-type": "go",
       "changelog-path": "CHANGELOG.md"
     }
-  }
+  },
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Features"
+    },
+    {
+      "type": "fix",
+      "section": "Bug Fixes"
+    },
+    {
+      "type": "docs",
+      "section": "Documentation",
+      "hidden": false
+    },
+    {
+      "type": "chore",
+      "section": "Chores",
+      "hidden": true
+    }
+  ]
 }
