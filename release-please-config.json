@@ -20,6 +20,11 @@
       "section": "Bug Fixes"
     },
     {
+      "type": "deps",
+      "section": "Dependencies",
+      "hidden": false
+    },
+    {
       "type": "docs",
       "section": "Documentation",
       "hidden": false
