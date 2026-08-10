@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.3](https://github.com/cwaits6/workflow-test/compare/v0.10.2...v0.10.3) (2026-08-10)
+
+
+### Dependencies
+
+* bump a pretend production dependency ([#30](https://github.com/cwaits6/workflow-test/issues/30)) ([5621040](https://github.com/cwaits6/workflow-test/commit/562104019ef48c4eb6ee27d599c158aa068b4dee))
+
 ## [0.10.2](https://github.com/cwaits6/workflow-test/compare/v0.10.1...v0.10.2) (2026-08-10)
 
 
