@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.2](https://github.com/cwaits6/workflow-test/compare/v0.10.1...v0.10.2) (2026-08-10)
+
+
+### Documentation
+
+* probe empty pull-request-header and docs bump level ([#27](https://github.com/cwaits6/workflow-test/issues/27)) ([6c2470b](https://github.com/cwaits6/workflow-test/commit/6c2470b3397700b37a4092663404ccd40a6153b9))
+
 ## [0.10.1](https://github.com/cwaits6/workflow-test/compare/v0.10.0...v0.10.1) (2026-08-10)
 
 
