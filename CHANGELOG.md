@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.1](https://github.com/cwaits6/workflow-test/compare/v0.10.0...v0.10.1) (2026-08-10)
+
+
+### Bug Fixes
+
+* correct output text and drop release-please config to re-bootstrap ([#25](https://github.com/cwaits6/workflow-test/issues/25)) ([81741d7](https://github.com/cwaits6/workflow-test/commit/81741d70128d09ec6d0b29f1d0e1c7d873cf6270))
+
 ## [0.10.0](https://github.com/cwaits6/workflow-test/compare/v0.9.0...v0.10.0) (2026-08-02)
 
 
