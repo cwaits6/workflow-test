@@ -3,7 +3,7 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": false,
   "pull-request-title-pattern": "chore: release ${version}",
-  "pull-request-header": "",
+  "pull-request-header": "Release notes below. Merge this PR to tag the release and publish it.",
   "packages": {
     ".": {
       "release-type": "go",
