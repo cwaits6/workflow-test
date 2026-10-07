@@ -10,11 +10,11 @@ permissions:
 
 jobs:
   dependency-review:
-    uses: krypsis-io/.github/.github/workflows/dependency-review.yml@main
+    uses: krypsis-io/.github/.github/workflows/dependency-review.yml@ci/pin-tool-versions
   trivy:
-    uses: krypsis-io/.github/.github/workflows/trivy.yml@main
+    uses: krypsis-io/.github/.github/workflows/trivy.yml@ci/pin-tool-versions
   semgrep:
-    uses: krypsis-io/.github/.github/workflows/semgrep.yml@main
+    uses: krypsis-io/.github/.github/workflows/semgrep.yml@ci/pin-tool-versions
     permissions:
       contents: write
       issues: write
